@@ -1,0 +1,38 @@
+//1st way to solve:
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int solveMeFirst(int a, int b) {
+    return a+b;
+ 
+}
+
+int main() {
+    int num1,num2;
+    scanf("%d %d",&num1,&num2);
+    int sum; 
+    sum = solveMeFirst(num1,num2);
+    printf("%d",sum);
+    return 0;
+}
+
+// 2nd way to sovle:
+
+#include <stdio.h>
+int main()
+{
+    int n1, n2, sum;
+    printf("enter number 1: ");
+    scanf("%d",&n1);
+    
+    printf("enter number 2: ");
+    scanf("%d",&n2);
+    
+    sum=n1+n2;
+    printf(" Sum of Numbers: %d", sum);
+    return 0;
+    
+}
