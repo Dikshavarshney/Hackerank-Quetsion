@@ -9,14 +9,11 @@ char ch;
 char s[20];
 char sen[200];
 
-//{use printf while working with another IDE expect Hackerank}
-//printf("enter a character: ");
+
 scanf("%c\n",&ch);
 
-//printf("enter a string: ");
 scanf("%s\n",&s);   
 
-//printf("enter a sentence: ");
 scanf("%[^\n]s",&sen);
 
 printf("%c\n",ch);
