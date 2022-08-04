@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int n,i,r,sum=0; //Declared variables n,i,r and s=0;
+  scanf("%d",&n); //Store entered value to n;
+  
+  while(n>0){ //using while loop with condition that loop will excute till n is greater than 0, after that loop teriminate.
+             r = n%10; //r stores the reminder of n, by 10;
+             sum = sum+r; //sum stores the value of (sum+r);
+             n= n/10; // n stores the new value of n after n divided by 10;
+  }
+  
+  printf("%d",sum); //print the sum of entered n;
+  return 0;
+}
