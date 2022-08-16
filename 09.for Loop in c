@@ -1,12 +1,6 @@
 #include <stdio.h>
+int main(){
 
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
-int main() 
-{
     int a, b, i;//Declared variables;
     scanf("%d\n%d", &a, &b);//Stored entered value;
 
